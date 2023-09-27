@@ -1,29 +1,17 @@
-## Java Introduction
+## JavaScript is the world's most popular programming language.
 
-## What is Java?
+## JavaScript is the programming language of the Web.
 
-Java is a popular programming language, created in 1995.
+## JavaScript is easy to learn.
 
-It is owned by Oracle, and more than 3 billion devices run Java.
+## This tutorial will teach you JavaScript from basic to advanced.
 
-## It is used for:
+## Why Study JavaScript?
 
-Mobile applications (specially Android apps)
-Desktop applications
-Web applications
-Web servers and application servers
-Games
-Database connection
-And much, much more!
+JavaScript is one of the 3 languages all web developers must learn:
 
-## Why Use Java?
+1.  HTML to define the content of web pages
 
-Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
-It is one of the most popular programming language in the world
-It has a large demand in the current job market
-It is easy to learn and simple to use
-It is open-source and free
-It is secure, fast and powerful
-It has a huge community support (tens of millions of developers)
-Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
-As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa
+2.  CSS to specify the layout of web pages
+
+3.  JavaScript to program the behavior of web pages
