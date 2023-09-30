@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph Changed.";
+      }
+    </script>
   </head>
   <body>
+    <h1>Demo JavaScript in Head</h1>
+    <p id="demo">A Heading</p>
+
+    <button type="button" onclick="myFunction">Try it!</button>
+
     <h2>JavaScript in Body</h2>
-    <p id="demo"></p>
+    <p id="demo1"></p>
 
     <script>
-      document.getElementById("demo").innerHTML = "My First Jacascript";
+      document.getElementById("demo1").innerHTML = "My First Jacascript";
     </script>
   </body>
 </html>
