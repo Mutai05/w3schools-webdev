@@ -16,11 +16,20 @@
 
     <button type="button" onclick="myFunction()">Try it!</button>
 
+    <h1>Demo JavaScript in Body</h1>
+    <p id="demo1">A Heading Two</p>
+
+    <button type="button" onclick="myFunctioTwo()">Try Again!</button>
+
     <h2>JavaScript in Body</h2>
-    <p id="demo1"></p>
+    <p id="demo2"></p>
 
     <script>
-      document.getElementById("demo1").innerHTML = "My First Jacascript";
+      document.getElementById("demo2").innerHTML = "My First Jacascript";
+
+      function myFunctioTwo() {
+        document.getElementById("demo1").innerHTML = "Paragraph Updated!";
+      }
     </script>
   </body>
 </html>
