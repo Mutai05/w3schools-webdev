@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="" />
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph Changed.";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Demo JavaScript in Head</h1>
+    <p id="demo">A Heading</p>
+    <button type="button" onclick="myFunction()">Try it!</button>
+
+    <h1>Demo JavaScript in Body</h1>
+    <p id="demo1">A Heading Two</p>
+    <button type="button" onclick="myFunctionTwo()">Try Again!</button>
+
+    <h2>JavaScript in Body</h2>
+    <p id="demo2"></p>
+
+    <!-- Include the external JavaScript file with only myFunctionTwo -->
+    <script src="myScript.js"></script>
+
+    <script>
+      document.getElementById("demo2").innerHTML = "My First JavaScript";
+    </script>
+  </body>
+</html>
