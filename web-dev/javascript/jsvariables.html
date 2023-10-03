@@ -84,6 +84,31 @@
       document.getElementById("demo5").innerHTML = b;
     </script>
 
+    <!-- If you put a number in quotes, the rest of the numbers 
+    will be treated as strings, and concatenated. -->
+
+    <h1>JavaScript Variables</h1>
+    <p>The result of adding "5" + 2 + 3 is:</p>
+    <p id="demo"></p>
+
+    <script>
+      let x = "5" + 2 + 3;
+      document.getElementById("demo").innerHTML = x;
+    </script>
+
+    <!-- JavaScript Dollar Sign $ -->
+
+    <h1>JavaScript Dollar Sign $</h1>
+
+    <p>The dollar sign is treated as a letter in JavaScript names.</p>
+
+    <p id="demo"></p>
+
+    <script>
+      let $$$ = 2;
+      let $myMoney = 5;
+      document.getElementById("demo").innerHTML = $$$ + $myMoney;
+    </script>
     <!-- When to Use var, let, or const?
 
     1. Always declare variables
