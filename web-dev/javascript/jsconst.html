@@ -124,15 +124,27 @@
     <!-- JavaScript Hoisting -->
 
     <h2>JavaScript Hoisting</h2>
-    <p>With <b>const</b>, you cannot use a variable before it is declared:</p>
+
+    <p>With <b>var</b>, you can use a variable before it is declared:</p>
+
     <p id="demo3"></p>
+
+    <script>
+      carName = "Volvo";
+      document.getElementById("demo3").innerHTML = carName;
+      var carName;
+    </script>
+
+    <h3>JavaScript Hoisting</h3>
+    <p>With <b>const</b>, you cannot use a variable before it is declared:</p>
+    <p id="demo4"></p>
 
     <script>
       try {
         alert(carName);
         const carName = "Volvo";
       } catch (err) {
-        document.getElementById("demo3").innerHTML = err;
+        document.getElementById("demo4").innerHTML = err;
       }
     </script>
   </body>
