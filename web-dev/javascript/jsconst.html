@@ -120,5 +120,20 @@
         const x = 4; // Allowed
       }
     </script>
+
+    <!-- JavaScript Hoisting -->
+
+    <h2>JavaScript Hoisting</h2>
+    <p>With <b>const</b>, you cannot use a variable before it is declared:</p>
+    <p id="demo3"></p>
+
+    <script>
+      try {
+        alert(carName);
+        const carName = "Volvo";
+      } catch (err) {
+        document.getElementById("demo3").innerHTML = err;
+      }
+    </script>
   </body>
 </html>
