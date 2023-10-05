@@ -9,6 +9,8 @@
     <!-- JavaScript const -->
     <h2>JavaScript const</h2>
     <p>Declaring a constant array does NOT make the elements unchangeable:</p>
+    <p>You can change the elements of a constant array:</p>
+    <p>But you can NOT reassign the array:</p>
     <p id="demo"></p>
 
     <script>
@@ -29,7 +31,9 @@
 
     <h2>JavaScript const</h2>
     <p>Declaring a constant object does NOT make the objects properties unchangeable:</p>
-    <p id="demo"></p>
+    <p>You can change the properties of a constant object:</p>
+    <p>But you can NOT reassign the object:</p>
+    <p id="demo1"></p>
 
     <script>
       // Create an object:
@@ -42,12 +46,13 @@
       car.owner = "Johnson";
 
       // Display the property:
-      document.getElementById("demo").innerHTML = "Car owner is " + car.owner;
+      document.getElementById("demo1").innerHTML = "Car owner is " + car.owner;
     </script>
 
     <!-- Block Scope -->
     <h2>JavaScript const variables has block scope</h2>
-    <p id="demo1"></p>
+    <p>Declaring a variable with const is similar to let when it comes to Block Scope.</p>
+    <p id="demo2"></p>
 
     <script>
       const x = 10;
@@ -59,7 +64,7 @@
       }
 
       // Here x is 10
-      document.getElementById("demo1").innerHTML = "x is " + x;
+      document.getElementById("demo2").innerHTML = "x is " + x;
     </script>
   </body>
 </html>
