@@ -66,5 +66,59 @@
       // Here x is 10
       document.getElementById("demo2").innerHTML = "x is " + x;
     </script>
+
+    <!-- Redeclaring -->
+    <h2>Redeclaring</h2>
+    <p>Redeclaring a JavaScript var variable is allowed anywhere in a program:</p>
+
+    <script>
+      var x = 2; // Allowed
+      var x = 3; // Allowed
+      x = 4; // Allowed
+    </script>
+
+    <p>Redeclaring an existing var or let variable to const, in the same scope, is not allowed:</p>
+    <script>
+      var x = 2; // Allowed
+      const x = 2; // Not allowed
+
+      {
+        let x = 2; // Allowed
+        const x = 2; // Not allowed
+      }
+
+      {
+        const x = 2; // Allowed
+        const x = 2; // Not allowed
+      }
+    </script>
+    <p>Reassigning an existing const variable, in the same scope, is not allowed:</p>
+    <script>
+      const x = 2; // Allowed
+      x = 2; // Not allowed
+      var x = 2; // Not allowed
+      let x = 2; // Not allowed
+      const x = 2; // Not allowed
+
+      {
+        const x = 2; // Allowed
+        x = 2; // Not allowed
+        var x = 2; // Not allowed
+        let x = 2; // Not allowed
+        const x = 2; // Not allowed
+      }
+    </script>
+    <p>Redeclaring a variable with const, in another scope, or in another block, is allowed:</p>
+    <script>
+      const x = 2; // Allowed
+
+      {
+        const x = 3; // Allowed
+      }
+
+      {
+        const x = 4; // Allowed
+      }
+    </script>
   </body>
 </html>
