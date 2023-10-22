@@ -108,5 +108,17 @@
 
       document.getElementById("numbers1").innerHTML = f + "<br>" + g;
     </script>
+
+    <h2>JavScript Bigint</h2>
+    <p>A BigInt can not have decimals.</p>
+
+    <p id="numbers2"></p>
+
+    <p>You cannot perform math between a BigInt type and a Number type.</p>
+
+    <script>
+      let h = BigInt("123456789012345678901234567890");
+      document.getElementById("numbers2").innerHTML = h;
+    </script>
   </body>
 </html>
