@@ -172,5 +172,30 @@
 
       document.getElementById("objects").innerHTML = person.firstName + " is " + person.age + " years old.";
     </script>
+
+    <!-- The typeof Operator -->
+    <h2>The typeof Operator</h2>
+    <p>The typeof operator returns the type of a variable or an expression.</p>
+
+    <p id="typeofop"></p>
+
+    <script>
+      document.getElementById("typeofop").innerHTML =
+        typeof "" +
+        "<br>" +
+        typeof "John" +
+        "<br>" +
+        typeof "John Doe" +
+        "<br>" +
+        typeof 0 +
+        "<br>" +
+        typeof 314 +
+        "<br>" +
+        typeof 3.14 +
+        "<br>" +
+        typeof 3 +
+        "<br>" +
+        typeof (3 + 4);
+    </script>
   </body>
 </html>
