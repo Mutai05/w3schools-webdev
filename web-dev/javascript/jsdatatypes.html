@@ -34,5 +34,20 @@
       let b = 16 + 4 + "Volvo";
       document.getElementById("demo2").innerHTML = b;
     </script>
+
+    <p>
+      JavaScript has dynamic types. This means that the same variable can be used to hold different data
+      types:
+    </p>
+
+    <p id="demo3"></p>
+
+    <script>
+      let c; // Now x is undefined
+      c = 5; // Now x is a Number
+      c = "John"; // Now x is a String
+
+      document.getElementById("demo3").innerHTML = c;
+    </script>
   </body>
 </html>
